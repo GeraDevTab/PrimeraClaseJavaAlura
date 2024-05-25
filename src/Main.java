@@ -36,5 +36,14 @@ public class Main {
         
                 """.formatted(nombre2,aulas);
         System.out.println(mensaje);
+
+        //castin implicito: se realiza automaticamente por el compulador cuando el tipo de dato de origen es compatible con el tipo de datos de destino.
+        //por ejemplo, es posible asignar un valor de tipo int a una variable de tipo double, ya que el tipo double es mas grande y puede almacenar todos los valores que el t
+        //tipo int puede contener:
+
+        int x = 10;
+        double y = x;
+        System.out.println("Valor de y: " +y);
+
     }
 }
