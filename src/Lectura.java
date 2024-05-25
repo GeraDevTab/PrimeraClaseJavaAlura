@@ -10,6 +10,7 @@ public class Lectura {
         int fechaDeLanzamiento = teclado.nextInt();
         System.out.println("Por ultimo dinos que nota le das a esta pelicula");
         double nota = teclado.nextDouble();
+        teclado.close();
 
         System.out.println(pelicula);
         System.out.println(fechaDeLanzamiento);
